@@ -1,0 +1,25 @@
+
+.header {
+  display: flex;
+  justify-content: center;
+}
+
+span {
+  display: inline-block;
+  text-align: left;
+  font-family: Inter;
+  font-size: 45px;
+  font-weight: 600;
+  line-height: 60px;
+  opacity: 1;
+  transition: opacity 1s ease-out;
+  color: #27374D;
+}
+
+.gradient-text {
+  background-image: linear-gradient(43deg, #4158D0 0%, #C850C0 46%, #FFCC70 100%);
+  
+  background-clip: text;
+  -webkit-background-clip: text;
+  color: transparent;
+}

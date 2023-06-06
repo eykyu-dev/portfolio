@@ -1,0 +1,32 @@
+.card-div{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.card{
+    border: red dotted;
+    border-radius: 20px;
+    width: 14vw;
+    height: 35vh;
+}
+
+.card-deck{
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+}
+
+p {
+    display: inline-block;
+    text-align: left;
+    font-family: Inter;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 60px;
+    opacity: 1;
+    transition: opacity 1s ease-out;
+    color: #27374D;
+    padding: 5vh;
+  }

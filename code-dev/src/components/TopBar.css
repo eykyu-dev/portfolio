@@ -1,0 +1,21 @@
+.bar-div{
+    display: flex;
+    width: 100%;
+    align-items: center;
+    justify-content: space-between;
+    padding-top: 5vh;
+    padding-bottom: 5vh;
+}
+
+button{
+  background-color: rgba(51, 51, 51, 0.05);
+  border-radius: 30px;
+  border-width: 0;
+  color: #333333;
+  cursor: pointer;
+  font-family: "Inter";
+  font-size: 18px;
+  font-weight: 500;
+  line-height: 20px;
+  padding: 10px 12px;
+}
