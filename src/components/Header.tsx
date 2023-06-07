@@ -16,7 +16,7 @@ function Header() {
   return (
     <div className={`header ${fade ? 'fade-in' : ''}`}>
       <span className='header-text'>
-        hey! my name is ethan. a passionate software engineer that loves providing optimal solutions to complex problems and turning <span className="gradient-text">your designs into code.</span>
+        hey! my name is ethan. i'm a passionate software engineer that loves providing optimal solutions to complex problems and turning <span className="gradient-text">your designs into code.</span>
       </span> 
     </div>
   );
