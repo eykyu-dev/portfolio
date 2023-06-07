@@ -5,13 +5,6 @@
     align-items: center;
 }
 
-.card{
-    border: red dotted;
-    border-radius: 20px;
-    width: 14vw;
-    height: 35vh;
-}
-
 .card-deck{
     display: flex;
     flex-direction: row;
