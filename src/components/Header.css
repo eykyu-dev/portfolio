@@ -11,9 +11,9 @@
 
 .header-text {
   display: inline-block;
-  text-align: center;
+  text-align: left;
   font-family: Inter;
-  font-size: 45px;
+  font-size: 48px;
   font-weight: 600;
   line-height: 60px;
   opacity: 1;
@@ -21,8 +21,16 @@
 }
 
 .gradient-text {
+  background-color: #0093E9;
+  background-image: linear-gradient(160deg, #0093E9 0%, #80D0C7 100%);  
+  background-clip: text;
+  -webkit-background-clip: text;
+  color: transparent;
+}
+
+.gradient-text-2 {
   background-color: #8EC5FC;
-  background-image: linear-gradient(326deg, #861657 0%, #ffa69e 74%);
+  background-image: linear-gradient(62deg, #8EC5FC 0%, #E0C3FC 100%);  
   background-clip: text;
   -webkit-background-clip: text;
   color: transparent;
