@@ -7,8 +7,7 @@ function Header() {
   useEffect(() => {
     setTimeout(() => {
       setFade(true);
-    }, 300); 
-
+    }, 200); 
     return () => {
       setFade(false);
     };
@@ -16,9 +15,9 @@ function Header() {
 
   return (
     <div className={`header ${fade ? 'fade-in' : ''}`}>
-      <span>
-        Hi, I'm Ethan. I'm a passionate software engineer that loves providing optimal solutions to complex problems and turning <span className="gradient-text">designs into code.</span>
-      </span>
+      <span className='header-text'>
+        hey! my name is ethan. a passionate software engineer that loves providing optimal solutions to complex problems and turning <span className="gradient-text">your designs into code.</span>
+      </span> 
     </div>
   );
 }
