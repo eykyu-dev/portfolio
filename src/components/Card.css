@@ -1,9 +1,8 @@
 .card-div {
-    height: 23vw;
+    height: 21vw;
     width: 23vw;
     display: grid;
     grid-template-rows: 1fr 1fr;
-
     border-radius: 20px;
     background-color: rgb(255, 255, 255);
     box-sizing: border-box;
@@ -11,7 +10,7 @@
 
 .card-img {
     grid-row: 1;
-    object-fit: fill;
+    object-fit: contain;
     height: 100%;
     width: 100%;
     border-top-left-radius: 20px;

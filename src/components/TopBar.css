@@ -1,7 +1,8 @@
 .bar-div{
     display: flex;
     align-items: center;
-    justify-content: space-between;
+    justify-content: center;
+    gap: 2vw;
     padding-top: 5vh;
     padding-bottom: 5vh;
 }
@@ -17,4 +18,5 @@
   font-weight: 500;
   line-height: 20px;
   padding: 10px 12px;
+  text-decoration: none;
 }
