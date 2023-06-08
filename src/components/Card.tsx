@@ -13,17 +13,15 @@ interface CardProps{
 
 function Card(props: CardProps) {
         return (
-        <div className='card'>
-            <div className='img-sec'>
-                <img className='card-logo' src={props.img}></img>
-            </div>
-            <div className='desc-sec'>
-                <span className='card-title'>{props.title}</span>
+        <div className='card-div'>
+            <img className='card-img' src={props.img}></img>
+            <div className='desc-sec-div'>
+                <span className='desc-title'>{props.title}</span>
                 <span className='desc-text'>{props.titledate}</span>
+                <div className='desc-button-div'>
+                    <a className='button-sec-href' href={"//" + props.href1}>{props.button1}</a>
+                    <a className='button-sec-href' href={"//" + props.href2}>{props.button2}</a>
             </div>
-            <div className='button-sec'>
-                <a className='button-sec-href' href={"//" + props.href1}>{props.button1}</a>
-                <a className='button-sec-href' href={"//" + props.href2}>{props.button2}</a>
             </div>
         </div>
         );

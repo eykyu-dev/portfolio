@@ -5,6 +5,9 @@
 }
 
 .header.fade-in {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
   opacity: 1;
 }
 
@@ -35,3 +38,32 @@
   -webkit-background-clip: text;
   color: transparent;
 }
+
+
+@media (max-width: 768px) {
+
+  .header-text {
+    display: inline-block;
+    text-align: left;
+    font-family: Inter;
+    font-size: 24px;
+    font-weight: 600;
+    line-height: 40px;
+    opacity: 1;
+    color: #27374D;
+  }
+}
+
+
+.showcase-text {
+    display: inline-block;
+    text-align: center;
+    font-family: Inter;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 60px;
+    opacity: 1;
+    transition: opacity 1s ease-out;
+    color: #27374D;
+    padding: 5vh;
+  }

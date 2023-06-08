@@ -4,8 +4,16 @@ body, html {
 }
 
 .App-div{
-  margin-left: 27.5%;
-  margin-right: 27.5%;
+  margin-left: 20vw;
+  margin-right: 20vw;
   display: flex;
   flex-direction: column;
+}
+
+
+@media (max-width: 768px) {
+  .App-div{
+    margin-left: 10vw;
+    margin-right: 10vw;
+  }
 }

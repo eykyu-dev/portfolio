@@ -1,6 +1,6 @@
 import Header from './components/Header';
 import TopBar from './components/TopBar';
-import Cards from './components/Cards';
+import CardShowcase from './components/CardShowcase';
 import './App.css';
 
 function App() {
@@ -9,8 +9,8 @@ function App() {
     <div className="App-div">
       <TopBar></TopBar>
       <Header></Header>
+      <CardShowcase></CardShowcase>
     </div>
-    <Cards></Cards>
     </>
   );
 }

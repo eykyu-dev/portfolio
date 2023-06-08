@@ -1,0 +1,13 @@
+.showcase-div{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.cards-in-showcase-div{
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    gap: 20px;
+}

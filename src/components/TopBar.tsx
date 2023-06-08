@@ -9,7 +9,7 @@ function TopBar() {
 
   return (
     <div className='bar-div'>
-      <button className='email-button' onClick={handleEmailClick}>Say Hi 👋</button>
+      <button className='email-button' onClick={handleEmailClick}>Github 🖥️</button>
       <button className='email-button' onClick={handleEmailClick}>Say Hi 👋</button>
     </div>
   );

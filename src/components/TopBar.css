@@ -1,6 +1,5 @@
 .bar-div{
     display: flex;
-    width: 100%;
     align-items: center;
     justify-content: space-between;
     padding-top: 5vh;
