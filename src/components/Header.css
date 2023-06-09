@@ -7,14 +7,13 @@
 .header.fade-in {
   display: flex;
   flex-direction: column;
-  align-items: center;
   opacity: 1;
 }
 
 
 .header-text {
   display: inline-block;
-  text-align: left;
+  text-align: center;
   font-family: Inter;
   font-size: 48px;
   font-weight: 600;
@@ -23,17 +22,22 @@
   color: #27374D;
 }
 
-.gradient-text {
-  background-color: #0093E9;
-  background-image: linear-gradient(160deg, #0093E9 0%, #80D0C7 100%);  
-  background-clip: text;
-  -webkit-background-clip: text;
-  color: transparent;
+
+.header-intro {
+  display: inline-block;
+  text-align: center;
+  font-family: Inter;
+  font-size: 20px;
+  font-weight: 300;
+  line-height: 30px;
+  opacity: 1;
+  padding-top: 2vh;
+  color: #27374D;
 }
 
 .gradient-text-2 {
-  background-color: #8EC5FC;
-  background-image: linear-gradient(62deg, #8EC5FC 0%, #E0C3FC 100%);  
+  background-color: #000000;
+  background-image: linear-gradient(315deg, #000000 0%, #414141 74%);
   background-clip: text;
   -webkit-background-clip: text;
   color: transparent;

@@ -3,11 +3,12 @@
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    gap: 5vh;
 }
 
 .cards-in-showcase-div{
     display: flex;
-    justify-content: center;
+    align-items: center;
     flex-direction: row;
     gap: 20px;
 }
