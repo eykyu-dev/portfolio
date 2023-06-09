@@ -11,6 +11,8 @@ function CardShowcase() {
         </div>
         <div className='cards-in-showcase-div'>
             <Card img='/portfolio.png' title='portfolio-site' titledate='this site!' button1='deployment 🧑🏻‍💻' button2='github 📂' href1='flos-frontend.vercel.app/' href2='github.com/eykyu-dev/flos-frontend'/>
+            <Card img='/placeholder.png' title='soon-tm' titledate='soon!' button1='deployment 🧑🏻‍💻' button2='github 📂' href1='flos-frontend.vercel.app/' href2='github.com/eykyu-dev/flos-frontend'/>
+            <Card img='/placeholder.png' title='soon-tm' titledate='soon!' button1='deployment 🧑🏻‍💻' button2='github 📂' href1='flos-frontend.vercel.app/' href2='github.com/eykyu-dev/flos-frontend'/>
         </div>
     </div>
   );

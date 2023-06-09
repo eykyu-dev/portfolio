@@ -22,6 +22,7 @@
 .desc-sec-div{
     grid-row: 2;
     display: flex;
+    align-self: center;
     flex-direction: column;
     padding-top: 2vh;
 }
